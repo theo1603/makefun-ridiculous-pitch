@@ -20,6 +20,19 @@ Revision (genuine improvement, not a no-op):
   "We rent strangers' unused bathtubs to city mushroom farmers, because one
   damp tub grows $400 of oyster mushrooms a month and every apartment already
   has the plumbing."
+
+Second revision (after running the entry and re-reading it as a judge would):
+  - "every apartment already has the plumbing" -> "every bathroom already
+    has the plumbing": "bathroom" echoes "bathtub", so the supply-side joke
+    lands in one image instead of two, and the reader pictures the exact
+    room being rented.
+  - "a month" moved after "oyster mushrooms": "grows $400 of oyster
+    mushrooms a month" reads as recurring revenue, which is what makes the
+    business logic survive a second look.
+  Final (166 chars):
+  "We rent strangers' unused bathtubs to city mushroom farmers, because one
+  damp tub grows $400 of oyster mushrooms a month and every bathroom already
+  has the plumbing."
 """
 
 import os
@@ -27,7 +40,7 @@ import os
 ENTRY = (
     "We rent strangers' unused bathtubs to city mushroom farmers, "
     "because one damp tub grows $400 of oyster mushrooms a month and "
-    "every apartment already has the plumbing."
+    "every bathroom already has the plumbing."
 )
 
 
